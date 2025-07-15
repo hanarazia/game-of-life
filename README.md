@@ -27,24 +27,19 @@ The program implements Conway’s Game of Life through the use of an ADT (abstra
   ./life -t -n 100 -i list/beehive.txt -o output.txt
   ```
 
+---
+
 ## Files in Repo
 
-- **`universe.c`**  
-  Implements the Universe ADT.
+## Files in Repo
 
-- **`universe.h`**  
-  Header file that specifies the interface to `universe.c`.
-
-- **`life.c`**  
-  Contains the `main` function to run Conway’s Game of Life.
-
-- **`Makefile`**  
-  Compiles the program using `clang` and applies `clang-format` to all source files.
-
-- **`README.md`**  
-  Contains an overview of the assignment, usage instructions, and formatting notes.
-
-- **`lists/`**  
-  A folder containing a wide variety of `.txt` pattern files such as `glider.txt`, `beehive.txt`, `b-heptomino.txt`, and more. These files can be used as input configurations to visualize interesting starting states of the game.
+| File            | Description                                                                                         |
+|-----------------|-----------------------------------------------------------------------------------------------------|
+| `universe.c`    | Implements the Universe ADT                                                                         |
+| `universe.h`    | Header file that specifies the interface to `universe.c`                                            |
+| `life.c`        | Contains the `main` function to run Conway’s Game of Life                                           |
+| `Makefile`      | Compiles the program using `clang` and applies `clang-format` to all source files                   |
+| `lists/`        | Folder containing `.txt` pattern files (e.g., `glider.txt`, `beehive.txt`) for input configurations |
 
 
+![Screenshot of the game](image.png)
