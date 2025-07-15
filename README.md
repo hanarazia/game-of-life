@@ -31,8 +31,6 @@ The program implements Conway’s Game of Life through the use of an ADT (abstra
 
 ## Files in Repo
 
-## Files in Repo
-
 | File            | Description                                                                                         |
 |-----------------|-----------------------------------------------------------------------------------------------------|
 | `universe.c`    | Implements the Universe ADT                                                                         |
