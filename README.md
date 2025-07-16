@@ -6,7 +6,7 @@ The program implements Conway’s Game of Life through the use of an ADT (abstra
 
 1. Clone the repo  
   ```bash
-  git clone https://github.com/yourusername/fifteen-game.git
+  git clone https://github.com/yourusername/game-of-life.git
   cd game-of-life
   ```
 2. Build the project
