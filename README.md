@@ -13,7 +13,7 @@ The program implements Conway’s Game of Life through the use of an ADT (abstra
   ```
   make
   ```
-3. Run the game with desired flags
+3. Run the program with desired flags
   ```
   ./life -t	Makes toroidal Universe
   ./life -s	Silences ncurses
